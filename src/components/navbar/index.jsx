@@ -4,7 +4,7 @@ import { Form, FormControl, Nav, Navbar } from "react-bootstrap";
 export default class NavBar extends Component {
   render() {
     return (
-      <Navbar bg="light" expand="lg">
+      <Navbar expand="lg">
         <Navbar.Brand style={{ fontWeight: "bold" }}>
           {this.props.title}
         </Navbar.Brand>

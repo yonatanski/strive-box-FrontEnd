@@ -37,16 +37,7 @@ export default class DashboardLayout extends Component {
                   <h4>Home</h4>
                 </Link>
               </ListGroup.Item>
-              <ListGroup.Item
-                style={{ background: "transparent", border: "none" }}
-              >
-                <Link
-                  to="/all"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <h4>All Files</h4>
-                </Link>
-              </ListGroup.Item>
+
               <ListGroup.Item
                 style={{ background: "transparent", border: "none" }}
               >

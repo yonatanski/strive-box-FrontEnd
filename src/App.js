@@ -12,15 +12,6 @@ function App() {
         exact
         render={() => (
           <DashboardLayout title="Home">
-            <Home />
-          </DashboardLayout>
-        )}
-      ></Route>
-      <Route
-        path="/all"
-        exact
-        render={() => (
-          <DashboardLayout title="All">
             <All />
           </DashboardLayout>
         )}
