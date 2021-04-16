@@ -1,0 +1,40 @@
+.layout {
+  display: flex;
+}
+
+#brand {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  font-size: 24px;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.side {
+  background-color: rgb(238, 238, 238);
+  width: 300px;
+  padding: 50px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.side svg {
+  margin-left: 20px;
+}
+
+.main {
+  background-color: #fff;
+  padding-top: 50px;
+  flex: 1;
+}
+
+.content {
+  padding: 50px 20px 50px 20px;
+}
+
+.list-item {
+  background-color: transparent;
+  border: none;
+}
