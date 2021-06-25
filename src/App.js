@@ -1,9 +1,8 @@
 import DashboardLayout from "layouts/dashboard";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "pages/home";
 import All from "pages/all";
 import Recents from "pages/recents";
 import Starred from "pages/starred";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
   return (
     <Router>

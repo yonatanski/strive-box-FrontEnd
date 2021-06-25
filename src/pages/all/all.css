@@ -1,0 +1,11 @@
+.file-name {
+  border: none;
+  background: transparent;
+  border-bottom: 1px dashed lightgrey;
+  font-size: 1.2em;
+}
+
+.file-name:focus {
+  border-bottom: 1px dashed lightgrey;
+  outline: none;
+}
