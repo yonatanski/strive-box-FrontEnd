@@ -11,7 +11,7 @@ Just run it, will install following dependencies for you.
 - bootstrap
 - react-router-dom
 
-```
+``
 
     npm i && npm start
 
